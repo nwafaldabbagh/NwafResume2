@@ -8,75 +8,74 @@
   <meta name="description" content="VLAN and trunking lab project details: topology, configuration, and skills learned." />
 </head>
 <body>
-<a class="skip-link" href="#content">Skip to content</a>
-<header class="profile" aria-labelledby="title">
-  <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="banner-img" />
-  <div class="profile-text">
-    <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
-    <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
-  </div>
-</header>
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+  <header class="header">
+    <div class="container">
+      <nav aria-label="Primary">
+        <a href="index.html">Nwaf Al Dabbagh</a>
+        <div class="nav-links">
+          <a href="index.html">Resume</a>
+          <a href="project1.html" aria-current="page">Project: VLAN Lab</a>
+          <a href="project2.html">Project: Static Routing</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<style>
-.profile {
-  text-align: center; /* centers the text */
-}
+  <main id="content" class="container">
+    <article>
+      <header class="profile" aria-labelledby="title">
+        <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="circle-img" />
+        <div>
+          <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
+          <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
+        </div>
+      </header>
 
-.banner-img {
-  width: 100%;           /* full width of the page */
-  height: 400px;         /* adjust as needed */
-  object-fit: cover;     /* fills the box without stretching */
-  display: block;
-}
-
-.profile-text {
-  padding: 20px;
-}
-}
-
-.circle-img {
-  width: 120px;         /* adjust size */
-  height: 120px;        /* keep square for circle */
-  border-radius: 50%;   /* makes it a circle */
-  object-fit: cover;    /* keeps image from stretching */
-  border: 3px solid #333; /* optional: adds a clean border */
-  width: 150px;
-  border-radius: 15px; /* rounded corners */
-  object-fit: cover;
-}
-</style>
+      <style>
+        .profile {
+          text-align: center; /* centers the title and text */
+        }
+        .banner-img {
+          width: 100%;           /* full width of the page */
+          max-height: 300px;     /* adjust height so it’s not too tall */
+          object-fit: cover;     /* ensures the image fills nicely without stretching */
+          display: block;        /* removes any inline spacing */
+        }
+      </style>
     
-    <section aria-labelledby="overview">
-      <h2 id="overview">Overview</h2>
-      <p>Built a campus-style network topology with access and trunk ports, created multiple VLANs, and verified segmentation and connectivity. Implemented inter‑VLAN routing to enable controlled communication between subnets.</p>
-    </section>
+      <section aria-labelledby="overview">
+        <h2 id="overview">Overview</h2>
+        <p>Built a campus-style network topology with access and trunk ports, created multiple VLANs, and verified segmentation and connectivity. Implemented inter-VLAN routing to enable controlled communication between subnets.</p>
+      </section>
 
-    <section aria-labelledby="steps">
-      <h2 id="steps">What I Did</h2>
-      <ul>
-        <li>Designed the topology and assigned switchports to the correct VLANs.</li>
-        <li>Configured 802.1Q trunking on uplinks; set native VLANs and allowed lists.</li>
-        <li>Enabled inter‑VLAN routing using a router‑on‑a‑stick or L3 switch SVI.</li>
-        <li>Tested connectivity with <code>ping</code> and verified MAC address tables.</li>
-        <li>Documented commands and results.</li>
-      </ul>
-    </section>
+      <section aria-labelledby="steps">
+        <h2 id="steps">What I Did</h2>
+        <ul>
+          <li>Designed the topology and assigned switchports to the correct VLANs.</li>
+          <li>Configured 802.1Q trunking on uplinks; set native VLANs and allowed lists.</li>
+          <li>Enabled inter-VLAN routing using a router-on-a-stick or L3 switch SVI.</li>
+          <li>Tested connectivity with <code>ping</code> and verified MAC address tables.</li>
+          <li>Documented commands and results.</li>
+        </ul>
+      </section>
 
-    <section aria-labelledby="skills-learned">
-      <h2 id="skills-learned">Skills Learned</h2>
-      <div class="badges">
-        <span class="badge">Network segmentation</span>
-        <span class="badge">802.1Q trunking</span>
-        <span class="badge">SVIs &amp; inter‑VLAN routing</span>
-        <span class="badge">Cisco CLI</span>
-        <span class="badge">Troubleshooting</span>
-      </div>
-    </section>
-  </article>
+      <section aria-labelledby="skills-learned">
+        <h2 id="skills-learned">Skills Learned</h2>
+        <div class="badges">
+          <span class="badge">Network segmentation</span>
+          <span class="badge">802.1Q trunking</span>
+          <span class="badge">SVIs &amp; inter-VLAN routing</span>
+          <span class="badge">Cisco CLI</span>
+          <span class="badge">Troubleshooting</span>
+        </div>
+      </section>
+    </article>
 
-  <footer>
-    <p><a href="index.html">Back to Resume</a></p>
-  </footer>
-</main>
+    <footer>
+      <p><a href="index.html">Back to Resume</a></p>
+    </footer>
+  </main>
 </body>
 </html>
