@@ -26,24 +26,31 @@
   <main id="content" class="container">
     <article>
       <header class="profile" aria-labelledby="title">
-        <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="circle-img" />
-        <div>
-          <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
-          <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
-        </div>
-      </header>
+    <div>
+      <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
+      <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
+    </div>
+    <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="rectangle-img" />
+  </header>
 
-      <style>
-        .profile {
-          text-align: center; /* centers the title and text */
-        }
-        .banner-img {
-          width: 100%;           /* full width of the page */
-          max-height: 300px;     /* adjust height so it’s not too tall */
-          object-fit: cover;     /* ensures the image fills nicely without stretching */
-          display: block;        /* removes any inline spacing */
-        }
-      </style>
+  <style>
+  .profile {
+    text-align: center; /* centers everything */
+  }
+
+  .rectangle-img {
+    margin-top: 20px;
+    width: 80%;          /* rectangle spans most of the container */
+    max-width: 800px;    /* limit so it doesn’t get too huge on big screens */
+    height: 400px;       /* fixed rectangle height */
+    object-fit: cover;   /* crop while keeping aspect ratio */
+    border-radius: 10px; /* optional: smooth corners */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  </style>
+
     
       <section aria-labelledby="overview">
         <h2 id="overview">Overview</h2>
