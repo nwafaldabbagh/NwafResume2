@@ -26,30 +26,28 @@
   <main id="content" class="container">
     <article>
       <header class="profile" aria-labelledby="title">
-    <div>
-      <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
-      <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
-    </div>
-    <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="rectangle-img" />
-  </header>
+    <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="circle-img" />
+  <div>
+    <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
+    <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
+  </div>
+</header>
 
-  <style>
-  .profile {
-    text-align: center; /* centers everything */
-  }
+<style>
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between image and text */
+}
 
-  .rectangle-img {
-    margin-top: 20px;
-    width: 80%;          /* rectangle spans most of the container */
-    max-width: 800px;    /* limit so it doesn’t get too huge on big screens */
-    height: 400px;       /* fixed rectangle height */
-    object-fit: cover;   /* crop while keeping aspect ratio */
-    border-radius: 10px; /* optional: smooth corners */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  </style>
+.circle-img {
+  width: 120px;         /* adjust size */
+  height: 120px;        /* keep square for circle */
+  border-radius: 50%;   /* makes it a circle */
+  object-fit: cover;    /* keeps image from stretching */
+  border: 3px solid #333; /* optional: adds a clean border */
+}
+</style>
 
     
       <section aria-labelledby="overview">
