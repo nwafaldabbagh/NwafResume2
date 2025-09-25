@@ -25,12 +25,28 @@
 <main id="content" class="container">
   <article>
     <header class="profile" aria-labelledby="title">
-      <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" />
-      <div>
-        <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
-        <p class="tagline">Configuring VLANs, trunk ports, and inter‑VLAN routing across multiple switches.</p>
-      </div>
-    </header>
+  <img src="project1.png" alt="Diagram placeholder of VLAN lab topology" class="circle-img" />
+  <div>
+    <h1 id="title">VLAN &amp; Trunking Lab (Cisco Packet Tracer)</h1>
+    <p class="tagline">Configuring VLANs, trunk ports, and inter-VLAN routing across multiple switches.</p>
+  </div>
+</header>
+
+<style>
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between image and text */
+}
+
+.circle-img {
+  width: 120px;         /* adjust size */
+  height: 120px;        /* keep square for circle */
+  border-radius: 50%;   /* makes it a circle */
+  object-fit: cover;    /* keeps image from stretching */
+  border: 3px solid #333; /* optional: adds a clean border */
+}
+</style>
 
     <section aria-labelledby="overview">
       <h2 id="overview">Overview</h2>
