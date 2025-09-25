@@ -32,20 +32,20 @@
   </div>
 </header>
 
+
 <style>
 .profile {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* space between image and text */
+  text-align: center; /* centers the title and text */
 }
 
-.circle-img {
-  width: 150px;
-  border-radius: 15px; /* rounded corners */
-  object-fit: cover;
+.banner-img {
+  width: 100%;           /* full width of the page */
+  max-height: 300px;     /* adjust height so it’s not too tall */
+  object-fit: cover;     /* ensures the image fills nicely without stretching */
+  display: block;        /* removes any inline spacing */
 }
 </style>
-
+    
     <section aria-labelledby="overview">
       <h2 id="overview">Overview</h2>
       <p>Built a campus-style network topology with access and trunk ports, created multiple VLANs, and verified segmentation and connectivity. Implemented inter‑VLAN routing to enable controlled communication between subnets.</p>
